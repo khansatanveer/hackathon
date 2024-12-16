@@ -14,11 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"], // Adding Poppins font
+        poppins: ["Poppins", "sans-serif"], 
       },
 
       screens:{
-        'xs': '480px',
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
