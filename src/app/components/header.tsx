@@ -4,7 +4,6 @@ import Person from "@/app/public/account.png";
 import Cart from "@/app/public/shopping-cart.png";
 import Heart from "@/app/public/akar-icons_heart.png";
 import Image from "next/image";
-import { Shop } from "@mui/icons-material";
 
 const Header = () => {
   return (
