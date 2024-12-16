@@ -46,7 +46,7 @@ const Header = () => {
   
     <Image  src={Person}
     alt=""
-     className="text-[18px] sm:text-[18px] lg:text-[24px]"
+     className="text-[18px] sm:text-[18px] lg:text-[50px]"
     />
     
 
