@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Icon from "@/app/public/icons_search (2).png";
-import { IoPersonOutline } from "react-icons/io5";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { IoIosHeartEmpty } from "react-icons/io";
+import Person from "@/app/public/account.png";
+import Cart from "@/app/public/shopping-cart.png";
+import Heart from "@/app/public/akar-icons_heart.png";
 import Image from "next/image";
+import { Shop } from "@mui/icons-material";
 
 const Header = () => {
   return (
@@ -43,9 +44,13 @@ const Header = () => {
         <div className="flex gap-5 sm:gap-3 md:gap-4 lg:gap-[40px] ml-0 md:mr-[-90px] sm:ml-[440px] lg:ml-[1093px] px-24 sm:px-6 lg:px-0 mr-4 lg:mr-12 mt-8 sm:mt-0 lg:mt-0 ">
           <div className="text-black">
           <a href="../Account"  rel="noopener noreferrer" aria-label="Profile">
-  <div className="text-[18px] sm:text-[18px] lg:text-[24px]">
-    <IoPersonOutline />
-  </div>
+  
+    <Image  src={Person}
+    alt=""
+     className="text-[18px] sm:text-[18px] lg:text-[24px]"
+    />
+    
+
 </a>
 
           </div>
@@ -60,16 +65,20 @@ const Header = () => {
           </div>
           <div className="text-black">
           <a href=""  rel="noopener noreferrer" aria-label="Profile">
-            <div className="text-[18px] sm:text-[18px]  lg:text-[24px]">
-              <IoIosHeartEmpty />
-            </div>
+            
+            <Image  src={Heart}
+    alt=""
+     className="text-[18px] sm:text-[18px] lg:text-[24px]"
+    />
+            
             </a>
           </div>
           <div className="text-black">
           <a href=""  rel="noopener noreferrer" aria-label="Profile">
-            <div className="text-[18px] sm:text-[18px]  lg:text-[24px]">
-              <AiOutlineShoppingCart />
-            </div>
+          <Image  src={Cart}
+    alt=""
+     className="text-[18px] sm:text-[18px] lg:text-[24px]"
+    />
             </a>
           </div>
         </div>

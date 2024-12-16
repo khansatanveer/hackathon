@@ -11,8 +11,8 @@ import Pic6 from '@/app/public/Rectangle 13.png'
 import Pic7 from '@/app/public/Rectangle 14.png'
 import Pic8 from '@/app/public/Rectangle 15.png'
 import Pic9 from '@/app/public/bg-2.png'
-import { LuClock4 } from "react-icons/lu";
-import { FiCalendar } from "react-icons/fi";
+import Clock from "@/app/public/clock-fill.png";
+import  Calendar from "@/app/public/Calendar .png";
 import Header from '@/app/components/header'
 
 const Home = () => {
@@ -156,11 +156,15 @@ const Home = () => {
                 </a>
                 <div className="flex justify-center gap-4 mt-3 lg:mt-7">
                   <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><LuClock4 /></div>
+                  <Image src={Clock} 
+                      alt=''
+                      className="text-black text-lg"/>
                     <p className="text-[14px]">5 mins</p>
                   </span>
                   <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><FiCalendar /></div>
+                  <Image src={Calendar} 
+                      alt=''
+                      className="text-black text-lg"/>
                     <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
                   </span>
                 </div>
@@ -183,11 +187,16 @@ const Home = () => {
                 </a>
                 <div className="flex justify-center gap-4 mt-3 lg:mt-7">
                     <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><LuClock4 /></div>
+                      <Image src={Clock} 
+                      alt=''
+                      className="text-black text-lg"/>
+                    
                     <p className="text-[14px]">5 mins</p>
                   </span>
                   <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><FiCalendar /></div>
+                  <Image src={Calendar} 
+                      alt=''
+                      className="text-black text-lg"/>
                     <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
                   </span>
                 </div>
@@ -210,11 +219,15 @@ const Home = () => {
                 </a>
                 <div className="flex justify-center gap-4 mt-3 lg:mt-7">
                   <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><LuClock4 /></div>
+                  <Image src={Clock} 
+                      alt=''
+                      className="text-black text-lg"/>
                     <p className="text-[14px]">5 mins</p>
                   </span>
                   <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                    <div className="text-black text-lg"><FiCalendar /></div>
+                  <Image src={Calendar} 
+                      alt=''
+                      className="text-black text-lg"/>
                     <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
                   </span>
                 </div>
