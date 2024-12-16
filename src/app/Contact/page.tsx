@@ -1,14 +1,14 @@
 'use client'
 import React from "react";
 import Header from '@/app/components/header';
-import { FaLocationDot } from "react-icons/fa6";
+import Vector from "@/app/public/Vector (2).png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsClockFill } from "react-icons/bs";
 import Image from "next/image";
 import Link from "next/link";
 import Bg from '@/app/public/Rectangle 1.png'
 import Logo from '@/app/public/Meubel House_Logos-05.png'
-import { IoIosArrowForward } from "react-icons/io";
+import Arrow from '@/app/public/arrow-down.png'
 const Contact = () => {
   return (
     <div>
@@ -43,7 +43,10 @@ const Contact = () => {
   >
     Home
   </Link>
-  <span className="mx-2 text-black"><IoIosArrowForward  /></span>
+  <Image
+  src={Arrow} 
+  alt=''
+  className="mx-2 text-black font-normal mt-2"/>
   
   <span className="font-extralight text-stone-800 ">Contact</span>
 </p>
@@ -64,7 +67,9 @@ const Contact = () => {
             {/* Contact Details */}
             <div className="  w-full sm:w-[400px] md:h-[537px] md:w-[393px] lg:h-[550px] lg:w-[410px] mx-auto space-y-9 lg:ml-[190px]">
               <div className="flex items-start">
-                <div className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"><FaLocationDot /></div>
+                <Image src={Vector}
+                alt="" 
+                className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"/>
                 <div >
                   <h1 className="lg:text-[24px] md:text-[22px] text-[20px]  font-medium text-black">Address</h1>
                   <p className="lg:text-[20px] md:text-[15px] text-[14px]">236 5th SE Avenue, New<br /> York NY10000, United <br />States</p>

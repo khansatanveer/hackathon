@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { IoIosArrowForward } from "react-icons/io";
+import Arrow from '@/app/public/arrow-down.png'
 import Bg from '@/app/public/Rectangle 1.png'
 import Logo from '@/app/public/Meubel House_Logos-05.png'
 import Link from "next/link";
@@ -40,7 +40,10 @@ const AuthForm = () => {
   >
     Home
   </Link>
-  <span className="mx-2 text-black"><IoIosArrowForward  /></span>
+  <Image
+  src={Arrow} 
+  alt=''
+  className="mx-2 text-black font-normal mt-2"/>
   
   <span className="font-extralight text-stone-800 ">My account</span>
 </p>

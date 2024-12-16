@@ -28,6 +28,7 @@ const Home = () => {
             src={Sofa}
             alt="Sofa Single Seater"
             className="w-[600px] sm:w-[500px] lg:w-[800px] h-[500px] lg:h-[730px] scale-x-[-1]"
+            priority
           />
         </div>
 

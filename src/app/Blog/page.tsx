@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import { IoIosArrowForward } from "react-icons/io";
 import Bg from '@/app/public/Rectangle 1.png'
 import Logo from '@/app/public/Meubel House_Logos-05.png'
 import Link from "next/link";
@@ -14,7 +13,8 @@ import Pic5 from '@/app/public/pic5.png'
 import Pic6 from '@/app/public/pic7.png'
 import Pic7 from '@/app/public/pic8.png'
 import Pic9 from '@/app/public/pic9.png'
-import { IoSearch } from "react-icons/io5";
+import Arrow from '@/app/public/arrow-down.png'
+import Icon from "@/app/public/icons_search .png";
 export default function BlogLayout() {
   const posts = [
     { src:Pic4 , title: "Going all-in with millennial design", date: "03 Aug 2022" },
@@ -56,7 +56,10 @@ export default function BlogLayout() {
   >
     Home
   </Link>
-  <span className="mx-2 text-black"><IoIosArrowForward  /></span>
+  <Image
+  src={Arrow} 
+  alt=''
+  className="mx-2 text-black font-normal mt-2"/>
   
   <span className="font-extralight text-stone-800 ">Shop</span>
 </p>
@@ -155,8 +158,12 @@ export default function BlogLayout() {
     aria-label="Password"
     className="border-[2px] border-[#9F9F9F] sm:w-[280px] sm:h-[60px] w-[265px] h-[65px] rounded-[13px] p-2 pl-10 focus:outline-none" 
   />
-  <span  className="absolute left-3 top-1/2 transform -translate-y-1/2 ">
-  <IoSearch /></span>
+ 
+  <Image 
+  src={Icon}
+  alt=''
+  className="absolute left-3 top-1/2 transform -translate-y-1/2 "
+  ></Image>
 </div>
 
 
