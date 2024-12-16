@@ -2,8 +2,8 @@
 import React from "react";
 import Header from '@/app/components/header';
 import Vector from "@/app/public/Vector (2).png";
-import { FaPhoneAlt } from "react-icons/fa";
-import { BsClockFill } from "react-icons/bs";
+import Phone from "@/app/public/phone.png";
+import Clock from "@/app/public/clock-fill.png";
 import Image from "next/image";
 import Link from "next/link";
 import Bg from '@/app/public/Rectangle 1.png'
@@ -76,7 +76,8 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"><FaPhoneAlt /></div>
+                <Image src={Phone} alt=""
+                 className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"/>
                 <div >
                   <h1 className="lg:text-[24px] md:text-[22px] text-[20px] font-medium text-black">Phone</h1>
                   <p className="lg:text-[20px] md:text-[15px] text-[14px]">Mobile: +(84) 546-6789<br />
@@ -84,7 +85,8 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"><BsClockFill /></div>
+              <Image src={Clock} alt=""
+                 className="lg:text-3xl md:text-2xl text-2xl mt-1 mr-8"/>
 
                 <div >
                   <h1 className=" lg:text-[24px] md:text-[22px] text-[20px] font-medium text-black">Working Time</h1>

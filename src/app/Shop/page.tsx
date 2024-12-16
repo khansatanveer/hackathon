@@ -20,7 +20,7 @@ import Header from '@/app/components/header';
 import Link from "next/link";
 import Bg from '@/app/public/Rectangle 1.png'
 import Logo from '@/app/public/Meubel House_Logos-05.png'
-import { IoIosArrowForward } from "react-icons/io";
+import Arrow from '@/app/public/arrow-down.png'
 import React, { useState } from "react";
 import Filter from '@/app/public/filter.png'
 import Round from '@/app/public/big-round.png'
@@ -81,7 +81,11 @@ const ShopPage = () => {
   >
     Home
   </Link>
-  <span className="mx-2 text-black"><IoIosArrowForward  /></span>
+  <Image
+  src={Arrow} 
+  alt=''
+  className="mx-2 text-black font-normal mt-2"/>
+  
   
   <span className="font-extralight text-stone-800 ">Shop</span>
 </p>

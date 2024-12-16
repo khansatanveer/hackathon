@@ -20,7 +20,7 @@ export default function BlogLayout() {
     { src:Pic4 , title: "Going all-in with millennial design", date: "03 Aug 2022" },
     { src: Pic5 , title: "Exploring new ways of decorating", date: "03 Aug 2022" },
     { src:Pic6, title: "Handmade pieces that took time to make", date: "03 Aug 2022" },
-    { src: Pic7, title: "Modern home in Milan", date: "03 Aug 2022" }, // You can assign `Pic4` here
+    { src: Pic7, title: "Modern home in Milan", date: "03 Aug 2022" }, 
     { src:Pic9, title: "Colorful office redesign", date: "03 Aug 2022" },
   ];
   return (

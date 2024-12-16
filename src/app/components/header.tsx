@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { CiSearch } from "react-icons/ci";
+import Icon from "@/app/public/icons_search (2).png";
 import { IoPersonOutline } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IoIosHeartEmpty } from "react-icons/io";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -51,7 +52,9 @@ const Header = () => {
           <div className="text-black">
           <a href=""  rel="noopener noreferrer" aria-label="Profile">
             <div className="text-[20px] sm:text-[20px]  lg:text-[28px]">
-              <CiSearch />
+              <Image 
+              src={Icon}
+              alt=""/>
             </div>
             </a>
           </div>
