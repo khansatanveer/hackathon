@@ -24,12 +24,12 @@ const Home = () => {
       <div className="w-full h-screen bg-[#FBEBB5] flex flex-col lg:flex-row-reverse items-center justify-center ">
         {/* Right Content: Image */}
         <div className="mt-[-150px] sm:mt-[-90px] lg:mt-0 mb-2 lg:mr-[-130px] lg:mb-[100px]">
-          <Image
-            src={Sofa}
-            alt="Sofa Single Seater"
-            className="w-[600px] sm:w-[500px] lg:w-[800px] h-[500px] lg:h-[730px] scale-x-[-1]"
-            priority
-          />
+        <Image
+  src={Sofa}
+  alt="Sofa Single Seater"
+  className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] scale-x-[-1]"
+  priority
+/>
         </div>
 
         {/* Left Content: Text */}
@@ -40,7 +40,7 @@ const Home = () => {
           <br />
           <button className="font-medium hover:text-[23px] hover:sm-text-[23px] text-[18px] sm:text-[22px] lg:text-[24px] text-black lg:mt-[0px] mt-[-70px]">
             Shop Now
-            <hr className="mt-1 border-1 lg:border-2 border-black lg:w-[121px] w-[90px] mx-auto" />
+            <hr className="mt-1 border-1 lg:border-2 border-black lg:w-[121px] w-[90px] mx-auto mb-3" />
           </button>
         </div>
       </div>
