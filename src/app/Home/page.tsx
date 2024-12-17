@@ -40,7 +40,7 @@ const Home = () => {
           <br />
           <button className="font-medium hover:text-[23px] hover:sm:text-[23px] text-[18px] sm:text-[22px] lg:text-[20px] text-black lg:mt-[0px] mt-[-70px]">
             Shop Now
-            <hr className="mt-1 border-1 lg:border-2 border-black lg:w-[121px] w-[90px] mx-auto mb-3" />
+            <hr className="mt-1 border-1  border-black lg:w-[121px] w-[90px] mx-auto mb-3" />
           </button>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Home = () => {
             <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
               <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px]">
                 View More
-                <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
+                <hr className="mt-1  border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
               </button>
             </a>
           </div>
@@ -75,7 +75,7 @@ const Home = () => {
             <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
               <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px]">
                 View More
-                <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
+                <hr className="mt-1  border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
               </button>
             </a>
           </div>
@@ -141,7 +141,7 @@ const Home = () => {
           <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
             <button className="h-[50px] text-[24px] sm:text-[26px] lg:text-[28px] text-black font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px] mt-10 mb-10">
               View More
-              <hr className="mt-2 lg:mt-3 border-1 lg:border-2 border-black w-[120px] mx-auto" />
+              <hr className="mt-2 lg:mt-3 border-1  border-black w-[120px] mx-auto" />
             </button>
           </a>
         </div>
@@ -170,7 +170,7 @@ const Home = () => {
           <p className="text-gray-600 mb-8 text-lg sm:text-xl lg:text-2xl">Find a bright idea to suit your taste with our great selection</p>
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 md:px-4 ">
             {/* Blog Card 1 */}
-            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[580px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
+            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[580px]  w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
               <Image
                 src={Pic6}
                 alt="Blog 1"
@@ -180,9 +180,24 @@ const Home = () => {
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
                   Going all-in with millennial design
                 </h3>
-                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
+                <a href="#" className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
                   Read More
+                  <hr className="mt-1 lg:mt-3  border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
+                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Clock}
+                      alt=''
+                      className="text-black text-lg" />
+                    <p className="text-[14px]">5 mins</p>
+                  </span>
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Calendar}
+                      alt=''
+                      className="text-black text-lg" />
+                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
+                  </span>
+                </div>
               </div>
             </div>
             {/* Blog Card 2 */}
@@ -194,11 +209,27 @@ const Home = () => {
               />
               <div className="p-6 sm:p-7 lg:p-8">
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
-                  Getting started with decorating
+                  Going all-in with millennial design
                 </h3>
-                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
+                <a href="../Blog" rel="noopener noreferrer" aria-label="Profile" className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
                   Read More
+                  <hr className="mt-1 lg:mt-3  border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
+                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Clock}
+                      alt=''
+                      className="text-black text-lg" />
+
+                    <p className="text-[14px]">5 mins</p>
+                  </span>
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Calendar}
+                      alt=''
+                      className="text-black text-lg" />
+                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
+                  </span>
+                </div>
               </div>
             </div>
             {/* Blog Card 3 */}
@@ -210,14 +241,55 @@ const Home = () => {
               />
               <div className="p-6 sm:p-7 lg:p-8">
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
-                  Top 5 interiors to bring into your living room
+                  Going all-in with millennial design
                 </h3>
-                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
+                <a href="#" className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
                   Read More
+                  <hr className="mt-1 lg:mt-3  border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
+                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Clock}
+                      alt=''
+                      className="text-black text-lg" />
+                    <p className="text-[14px]">5 mins</p>
+                  </span>
+                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
+                    <Image src={Calendar}
+                      alt=''
+                      className="text-black text-lg" />
+                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
+                  </span>
+                </div>
               </div>
             </div>
+            <a href="../Blog" rel="noopener noreferrer" aria-label="Profile">
+              <button className="lg:mr-[-900px] h-[50px] text-[24px] sm:text-[26px] lg:text-[28px] text-black font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px]  hover:lg:text-[32px] mt-5 mb-5">
+                View More
+                <hr className="mt-2 lg:mt-3  border-1  border-black w-[120px] mx-auto" />
+              </button>
+            </a>
           </div>
+        </div>
+      </section>
+
+      <section className="relative w-full h-[350px] sm:h-[500px] md:h-[500px] text-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src={Pic9}
+            alt="Background"
+            className="object-cover w-full h-full"
+          />
+        </div>
+
+        {/* Text Content */}
+        <div className="relative z-10 flex flex-col items-center justify-center h-full">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-black mb-4">Our Instagram</h2>
+          <p className="text-lg sm:text-xl md:text-2xl font-medium mb-8">Follow our store on Instagram</p>
+          <button className="w-[200px] sm:w-[280px] md:w-[300px] hover:w-[220px] hover:sm:w-[300px] hover:md:w-[320px] h-[64px] bg-[#FAF4F4] text-black font-medium text-lg sm:text-xl md:text-2xl rounded-full shadow-lg  hover:text-[20px] hover:sm:text-[22px] hover:md:text-[26px]">
+            Follow Us
+          </button>
         </div>
       </section>
     </div>
