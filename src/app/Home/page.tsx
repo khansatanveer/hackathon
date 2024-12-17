@@ -18,7 +18,7 @@ import Header from '@/app/components/header'
 const Home = () => {
   return (
     <div>
-      <div className="bg-[#FBEBB5]  h-[170px]">
+     <div className="bg-[#FBEBB5]  h-[140px]">
         <Header />
       </div>
       <div className="w-full h-screen bg-[#FBEBB5] flex flex-col lg:flex-row-reverse items-center justify-center ">
@@ -27,24 +27,23 @@ const Home = () => {
         <Image
   src={Sofa}
   alt="Sofa Single Seater"
-  className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] scale-x-[-1]"
+  className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] lg:h-[600px]  lg:w-[500px]  scale-x-[-1]"
   priority
 />
         </div>
 
         {/* Left Content: Text */}
         <div className="text-center lg:text-left lg:ml-[-40px]">
-          <h1 className="text-[#000000] font-medium text-[30px] sm:text-[48px] lg:text-[64px] leading-[40px] sm:leading-[60px] lg:leading-[96px] lg:mt-[0px] mt-[-80px]">
+          <h1 className="text-[#000000] font-medium text-[30px] sm:text-[48px] lg:text-[58px] leading-[40px] sm:leading-[60px] lg:leading-[96px] lg:mt-[0px] mt-[-80px]">
             Rocket single <br /> seater
           </h1>
           <br />
-          <button className="font-medium hover:text-[23px] hover:sm-text-[23px] text-[18px] sm:text-[22px] lg:text-[24px] text-black lg:mt-[0px] mt-[-70px]">
+          <button className="font-medium hover:text-[23px] hover:sm:text-[23px]   text-[18px] sm:text-[22px] lg:text-[20px] text-black lg:mt-[0px] mt-[-70px]">
             Shop Now
             <hr className="mt-1 border-1 lg:border-2 border-black lg:w-[121px] w-[90px] mx-auto mb-3" />
           </button>
         </div>
       </div>
-
       <section className=" bg-[#FAF4F4] py-12  lg:h-[672px] h-[660px] sm:h-[850px]">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-32  ">
           <div className="text-center flex flex-col items-center mr-10 gap-4 mt-[-50px] lg:mt-[0px]">
