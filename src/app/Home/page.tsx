@@ -18,7 +18,7 @@ import Header from '@/app/components/header'
 const Home = () => {
   return (
     <div>
-      <div className="bg-[#FBEBB5]  h-[140px]">
+      <div className="bg-[#FBEBB5]  h-[170px]">
         <Header />
       </div>
       <div className="w-full h-screen bg-[#FBEBB5] flex flex-col lg:flex-row-reverse items-center justify-center ">
