@@ -122,7 +122,7 @@ const Home = () => {
               className="mx-auto max-w-full" />
           </div>
           <div className="lg:w-[50%] text-center lg:text-left">
-            <h2 className="text-black font-[500] text-[17px] sm:text-[30px] lg:text-[36px] lg:px-20">New Arrivals</h2>
+            <h2 className="text-black font-[500] text-[17px] sm:text-[30px] lg:text-[36px] lg:px-10">New Arrivals</h2>
             <h3 className="text-black font-extrabold text-[35px] sm:text-[56px] lg:text-[55px]">Asgaard sofa</h3>
             <div className="px-9 mt-2 ">
               <button className="h-[50px] lg:h-[70px] lg:w-[300px] w-[150px]  border-2 border-black text-black text-[20px] hover:text-[23px] sm:text-[23px] hover:sm:text-[26px] lg:text-[25px] hover:lg:text-[28px] ">
