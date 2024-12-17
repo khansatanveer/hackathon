@@ -18,18 +18,18 @@ import Header from '@/app/components/header'
 const Home = () => {
   return (
     <div>
-     <div className="bg-[#FBEBB5]  h-[140px]">
+      <div className="bg-[#FBEBB5] h-[140px]">
         <Header />
       </div>
       <div className="w-full h-screen bg-[#FBEBB5] flex flex-col lg:flex-row-reverse items-center justify-center ">
         {/* Right Content: Image */}
         <div className="mt-[-150px] sm:mt-[-90px] lg:mt-0 mb-2 lg:mr-[-130px] lg:mb-[100px]">
-        <Image
-  src={Sofa}
-  alt="Sofa Single Seater"
-  className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] lg:h-[600px]  lg:w-[500px]  scale-x-[-1]"
-  priority
-/>
+          <Image
+            src={Sofa}
+            alt="Sofa Single Seater"
+            className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] lg:h-[600px] lg:w-[500px] scale-x-[-1]"
+            priority
+          />
         </div>
 
         {/* Left Content: Text */}
@@ -38,37 +38,45 @@ const Home = () => {
             Rocket single <br /> seater
           </h1>
           <br />
-          <button className="font-medium hover:text-[23px] hover:sm:text-[23px]   text-[18px] sm:text-[22px] lg:text-[20px] text-black lg:mt-[0px] mt-[-70px]">
+          <button className="font-medium hover:text-[23px] hover:sm:text-[23px] text-[18px] sm:text-[22px] lg:text-[20px] text-black lg:mt-[0px] mt-[-70px]">
             Shop Now
             <hr className="mt-1 border-1 lg:border-2 border-black lg:w-[121px] w-[90px] mx-auto mb-3" />
           </button>
         </div>
       </div>
-      <section className=" bg-[#FAF4F4] py-12  lg:h-[672px] h-[660px] sm:h-[850px]">
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-32  ">
+      <section className="bg-[#FAF4F4] py-12 lg:h-[672px] h-[660px] sm:h-[850px]">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-32">
           <div className="text-center flex flex-col items-center mr-10 gap-4 mt-[-50px] lg:mt-[0px]">
-            <Image src={Table}
+            <Image
+              src={Table}
               alt="Side Table"
-              className="mx-auto mb-[-100px] sm:mb-[-150px] lg:mb-[-90px]  h-[auto] w-[800px] sm:w-[400px] lg:w-[790px]" />
-            <h3 className="text-[30px] sm:text-[40px] lg:text-[48px] font-medium leading-[54px] mt-[30px] lg:mt-[-40px] ">Side table</h3>
-            <a href="../Shop"  rel="noopener noreferrer" aria-label="Profile">
-            <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px]  hover:lg:text-[32px]">
-              View More
-              <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
-            </button>
+              className="mx-auto mb-[-100px] sm:mb-[-150px] lg:mb-[-90px] h-[auto] w-[800px] sm:w-[400px] lg:w-[790px]"
+            />
+            <h3 className="text-[30px] sm:text-[40px] lg:text-[48px] font-medium leading-[54px] mt-[30px] lg:mt-[-40px] ">
+              Side table
+            </h3>
+            <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
+              <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px]">
+                View More
+                <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
+              </button>
             </a>
           </div>
 
-          <div className="text-center flex flex-col items-center mr-10 gap-4  mt-[-50px] lg:mt-[0px]">
-            <Image src={Seeter}
+          <div className="text-center flex flex-col items-center mr-10 gap-4 mt-[-50px] lg:mt-[0px]">
+            <Image
+              src={Seeter}
               alt="Side Table"
-              className="mx-auto  sm:mb-[-110px] mb-[-90px] lg:mb-[-90px] h-[auto] w-[800px] sm:w-[400px] lg:w-[790px]" />
-            <h3 className="text-[30px] sm:text-[40px] lg:text-[48px] font-medium leading-[54px] mt-[0px] lg:mt-[-40px]">Side table</h3>
-            <a href="../Shop"  rel="noopener noreferrer" aria-label="Profile">
-            <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px]  hover:lg:text-[32px]">
-              View More
-              <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
-            </button>
+              className="mx-auto sm:mb-[-110px] mb-[-90px] lg:mb-[-90px] h-[auto] w-[800px] sm:w-[400px] lg:w-[790px]"
+            />
+            <h3 className="text-[30px] sm:text-[40px] lg:text-[48px] font-medium leading-[54px] mt-[0px] lg:mt-[-40px]">
+              Side table
+            </h3>
+            <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
+              <button className="mt-[-24px] lg:mt-[-8px] text-[20px] sm:text-[26px] lg:text-[28px] font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px]">
+                View More
+                <hr className="mt-1 lg:border-2 border-1 border-black lg:w-[121px] w-[90px] mx-auto" />
+              </button>
             </a>
           </div>
         </div>
@@ -83,34 +91,58 @@ const Home = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <Image src={Pic1} alt="Item 1" height={600} width={600} className="mx-auto mb-2 max-w-full" />
+              <Image
+                src={Pic1}
+                alt="Item 1"
+                height={600}
+                width={600}
+                className="mx-auto mb-2 max-w-full"
+              />
               <p className="font-[400] text-[16px] sm:text-[18px] lg:text-[20px]">Trenton modular sofa</p>
               <p className="font-[500] text-[24px] sm:text-[26px] lg:text-[28px]">Rs. 25,000.00</p>
             </div>
 
             <div className="text-center">
-              <Image src={Pic2} alt="Item 2" height={1000} width={1000} className="mx-auto mb-2 max-w-full" />
+              <Image
+                src={Pic2}
+                alt="Item 2"
+                height={1000}
+                width={1000}
+                className="mx-auto mb-2 max-w-full"
+              />
               <p className="font-[400] text-[16px] sm:text-[18px] lg:text-[20px]">Granite dining table</p>
               <p className="font-[500] text-[24px] sm:text-[26px] lg:text-[28px]">Rs. 25,000.00</p>
             </div>
 
             <div className="text-center">
-              <Image src={Pic3} alt="Item 3" height={500} width={500} className="mx-auto mb-2 max-w-full" />
+              <Image
+                src={Pic3}
+                alt="Item 3"
+                height={500}
+                width={500}
+                className="mx-auto mb-2 max-w-full"
+              />
               <p className="font-[400] text-[16px] sm:text-[18px] lg:text-[20px]">Outdoor bar table and stool</p>
               <p className="font-[500] text-[24px] sm:text-[26px] lg:text-[28px]">Rs. 25,000.00</p>
             </div>
 
             <div className="text-center">
-              <Image src={Pic4} alt="Item 4" height={500} width={500} className="mx-auto mb-2 max-w-full" />
+              <Image
+                src={Pic4}
+                alt="Item 4"
+                height={500}
+                width={500}
+                className="mx-auto mb-2 max-w-full"
+              />
               <p className="font-[400] text-[16px] sm:text-[18px] lg:text-[20px]">Plain console with teak mirror</p>
               <p className="font-[500] text-[24px] sm:text-[26px] lg:text-[28px]">Rs. 25,000.00</p>
             </div>
           </div>
-          <a href="../Shop"  rel="noopener noreferrer" aria-label="Profile">
-          <button className="h-[50px] text-[24px] sm:text-[26px] lg:text-[28px] text-black font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px]  hover:lg:text-[32px] mt-10 mb-10">
-            View More
-            <hr className="mt-2 lg:mt-3  border-1 lg:border-2 border-black w-[120px] mx-auto" />
-          </button>
+          <a href="../Shop" rel="noopener noreferrer" aria-label="Profile">
+            <button className="h-[50px] text-[24px] sm:text-[26px] lg:text-[28px] text-black font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px] hover:lg:text-[32px] mt-10 mb-10">
+              View More
+              <hr className="mt-2 lg:mt-3 border-1 lg:border-2 border-black w-[120px] mx-auto" />
+            </button>
           </a>
         </div>
       </section>
@@ -118,14 +150,13 @@ const Home = () => {
       <section className="bg-yellow-100 lg:py-2 py-9">
         <div className="container mx-auto flex flex-col lg:flex-row items-center lg:gap-8 gap-2 px-4">
           <div className="w-[325px] lg:w-[100%] h-auto">
-            <Image src={Pic5} alt="Asgaard Sofa"
-              className="mx-auto max-w-full" />
+            <Image src={Pic5} alt="Asgaard Sofa" className="mx-auto max-w-full" />
           </div>
           <div className="lg:w-[50%] text-center lg:text-left">
             <h2 className="text-black font-[500] text-[17px] sm:text-[30px] lg:text-[36px] lg:px-10">New Arrivals</h2>
             <h3 className="text-black font-extrabold text-[35px] sm:text-[56px] lg:text-[55px]">Asgaard sofa</h3>
             <div className="px-9 mt-2 ">
-              <button className="h-[50px] lg:h-[70px] lg:w-[300px] w-[150px]  border-2 border-black text-black text-[20px] hover:text-[23px] sm:text-[23px] hover:sm:text-[26px] lg:text-[25px] hover:lg:text-[28px] ">
+              <button className="h-[50px] lg:h-[70px] lg:w-[300px] w-[150px] border-2 border-black text-black text-[20px] hover:text-[23px] sm:text-[23px] hover:sm:text-[26px] lg:text-[25px] hover:lg:text-[28px] ">
                 Order Now
               </button>
             </div>
@@ -139,7 +170,7 @@ const Home = () => {
           <p className="text-gray-600 mb-8 text-lg sm:text-xl lg:text-2xl">Find a bright idea to suit your taste with our great selection</p>
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 md:px-4 ">
             {/* Blog Card 1 */}
-            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[580px]  w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
+            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[580px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
               <Image
                 src={Pic6}
                 alt="Blog 1"
@@ -149,24 +180,9 @@ const Home = () => {
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
                   Going all-in with millennial design
                 </h3>
-                <a href="#" className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
+                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
                   Read More
-                  <hr className="mt-1 lg:mt-3 lg:border-2 border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
-                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
-                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                  <Image src={Clock} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    <p className="text-[14px]">5 mins</p>
-                  </span>
-                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                  <Image src={Calendar} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
-                  </span>
-                </div>
               </div>
             </div>
             {/* Blog Card 2 */}
@@ -178,27 +194,11 @@ const Home = () => {
               />
               <div className="p-6 sm:p-7 lg:p-8">
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
-                  Going all-in with millennial design
+                  Getting started with decorating
                 </h3>
-                <a  href="../Blog"  rel="noopener noreferrer" aria-label="Profile" className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
+                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
                   Read More
-                  <hr className="mt-1 lg:mt-3 lg:border-2 border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
-                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
-                    <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                      <Image src={Clock} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    
-                    <p className="text-[14px]">5 mins</p>
-                  </span>
-                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                  <Image src={Calendar} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
-                  </span>
-                </div>
               </div>
             </div>
             {/* Blog Card 3 */}
@@ -210,61 +210,18 @@ const Home = () => {
               />
               <div className="p-6 sm:p-7 lg:p-8">
                 <h3 className="text-[18px] sm:text-[18px] lg:text-[20px] font-medium mb-5">
-                  Going all-in with millennial design
+                  Top 5 interiors to bring into your living room
                 </h3>
-                <a  href="#"   className="text-black  font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[18px]">
+                <a href="#" className="text-black font-medium text-base sm:text-lg lg:text-xl hover:lg:text-[24px] hover:sm:text-[20px] hover:text-[22px]">
                   Read More
-                  <hr className="mt-1 lg:mt-3 lg:border-2 border-1 border-black w-[100px] sm:w-[120px] mx-auto" />
                 </a>
-                <div className="flex justify-center gap-4 mt-3 lg:mt-7">
-                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                  <Image src={Clock} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    <p className="text-[14px]">5 mins</p>
-                  </span>
-                  <span className="flex items-center gap-1 text-[#9F9F9F] text-sm">
-                  <Image src={Calendar} 
-                      alt=''
-                      className="text-black text-lg"/>
-                    <p className="text-[14px]">{new Date().toLocaleDateString()}</p>
-                  </span>
-                </div>
               </div>
             </div>
-            <a href="../Blog"  rel="noopener noreferrer" aria-label="Profile">
-            <button className="lg:mr-[-900px] h-[50px] text-[24px] sm:text-[26px] lg:text-[28px] text-black font-medium leading-[36px] hover:text-[24px] hover:sm:text-[30px]  hover:lg:text-[32px] mt-5 mb-5">
-            View More
-            <hr className="mt-2 lg:mt-3  border-1 lg:border-2 border-black w-[120px] mx-auto" />
-          </button>
-          </a>
           </div>
         </div>
       </section>
-      <section className="relative w-full h-[350px] sm:h-[500px] md:h-[500px] text-center">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src={Pic9}
-            alt="Background"
-            className="object-cover w-full h-full"
-          />
-        </div>
-
-        {/* Text Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-black mb-4">Our Instagram</h2>
-          <p className="text-lg sm:text-xl md:text-2xl font-medium mb-8">Follow our store on Instagram</p>
-          <button className="w-[200px] sm:w-[280px] md:w-[300px] hover:w-[220px] hover:sm:w-[300px] hover:md:w-[320px] h-[64px] bg-[#FAF4F4] text-black font-medium text-lg sm:text-xl md:text-2xl rounded-full shadow-lg  hover:text-[20px] hover:sm:text-[22px] hover:md:text-[26px]">
-            Follow Us
-          </button>
-        </div>
-      </section>
-
     </div>
   );
 };
 
 export default Home;
-
-
