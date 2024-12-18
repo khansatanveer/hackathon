@@ -28,7 +28,7 @@ const Home = () => {
           <Image
             src={Sofa}
             alt="Sofa Single Seater"
-            className="md:w-[600px] md:h-[700px] w-[500px] h-[400px] lg:h-[600px] lg:w-[600px] scale-x-[-1]"
+            className="md:w-[600px] md:h-[500px] w-[500px] h-[400px] lg:h-[600px] lg:w-[600px] scale-x-[-1]"
             priority
           />
         </div>
@@ -171,7 +171,7 @@ const Home = () => {
           <p className="text-gray-600 mb-8 text-lg sm:text-xl lg:text-2xl">Find a bright idea to suit your taste with our great selection</p>
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 md:px-4 ">
             {/* Blog Card 1 */}
-            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[650px]  w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
+            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[600px]  w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
               <Image
                 src={Pic6}
                 alt="Blog 1"
@@ -202,7 +202,7 @@ const Home = () => {
               </div>
             </div>
             {/* Blog Card 2 */}
-            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[650px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
+            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[600px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
               <Image
                 src={Pic7}
                 alt="Blog 2"
@@ -234,7 +234,7 @@ const Home = () => {
               </div>
             </div>
             {/* Blog Card 3 */}
-            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[650px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
+            <div className="bg-white h-[400px] sm:h-[450px] lg:h-[600px] w-[300px] sm:w-[350px] lg:w-full shadow-lg rounded-lg overflow-hidden mx-auto">
               <Image
                 src={Pic8}
                 alt="Blog 3"
