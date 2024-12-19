@@ -48,7 +48,7 @@ export default function BlogLayout() {
       </div>
       {/* Title and Breadcrumb */}
       <div className="text-center ">
-        <h1 className="text-[48px] font-medium text-black">Shop</h1>
+        <h1 className="text-[48px] font-medium text-black">Blog</h1>
         <p className="mt-1 mb-6 flex items-center text-[18px] px-3">
   <Link
     href="/Home"
@@ -61,7 +61,7 @@ export default function BlogLayout() {
   alt=''
   className="mx-2 text-black font-normal mt-2"/>
   
-  <span className="font-extralight text-stone-800 ">Shop</span>
+  <span className="font-extralight text-stone-800 ">Blog</span>
 </p>
 
       </div>
